@@ -5,7 +5,6 @@ const nextConfig = {
   // Enable experimental features for better performance
   experimental: {
     optimizePackageImports: ['lucide-react'],
-    optimizeCss: true,
   },
   
   // Optimize images
@@ -27,9 +26,6 @@ const nextConfig = {
   
   // Static optimization
   trailingSlash: false,
-  
-  // Output optimization
-  output: 'standalone',
   
   // Headers for better caching and security
   async headers() {
